@@ -4,6 +4,7 @@ import auth from '../utils/auth';
 import { Link } from 'react-router-dom';
 import Score from '../components/Score'
 import Out from '../components/Out'
+import Calculator from '../components/Calculator'
 
 const dartOut = {
     score: 150,
@@ -14,9 +15,15 @@ const dartOut = {
 export default function OutPractice () {
     return (
         <div>
-            <Score dartOut = {dartOut}></Score>
-            <Out dartOut = {dartOut}></Out>
+            <div>
+                <Score dartOut = {dartOut}></Score>
+                <Out dartOut = {dartOut}></Out>
+            </div>
+            <div>
+                <Calculator></Calculator>
+            </div>
         </div>
+
     )
 
 }
