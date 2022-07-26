@@ -99,10 +99,6 @@ button {
   background-color: var(--secondary);
 }
 
-button:hover {
-  opacity: .8;
-}
-
 button[disabled] {
   cursor: default;
   opacity: .8;

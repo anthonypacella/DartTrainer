@@ -15,15 +15,8 @@ const dartOut = {
 export default function OutPractice () {
     return (
         <div>
-            <div>
-                <Score dartOut = {dartOut}></Score>
-                <Out dartOut = {dartOut}></Out>
-            </div>
-            <div>
-                <Calculator></Calculator>
-            </div>
+            <Calculator></Calculator>
         </div>
-
     )
 
 }
